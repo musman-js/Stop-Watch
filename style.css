@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #3a4764;
+}
+
+/* =====heading Styling===== */
+.heading1 {
+    color: #ff2e16;
+    font-size: 50px;
+}
+
+
+/* =====Numbers Styling==== */
+.main {
+    background-color: #1d2530;
+    width: 30em;
+
+}
+
+.time {
+    font-size: 50px;
+}
+
+
+/* ======Heading For Times Styling===== */
+.hour{
+    color: wheat;
+    font-size: 10px;
+    margin-left: 103px;
+    margin-top: -20px;
+}
+
+.min{
+    color: wheat;
+    font-size: 10px;
+    margin-left: 204px;
+    margin-top: -21px;
+}
+
+.sec{
+    color: wheat;
+    font-size: 11px;
+    margin-left: 304px;
+    margin-top: -22px;
+}
+
+/* =====Buttons Styling===== */
+
+.buttons {
+    margin-top: 3em;
+    display: flex;
+}
+
+.startbutton {
+    background-color: #01cd98;
+    color: white;
+    width: 7em;
+    height: 35px;
+    border-top-color: #01cd98;
+    border-bottom-color: #01cd98;
+    border-left-color: #01cd98;
+    border-right-color: #01cd98;
+    border-radius: 4px;
+
+
+
+}
+
+.stopbutton {
+    color: white;
+    background-color: #f2585a;
+    width: 7em;
+    height: 35px;
+    border-top-color: #f2585a;
+    border-bottom-color: #f2585a;
+    border-left-color: #f2585a;
+    border-right-color: #f2585a;
+    border-radius: 4px;
+
+
+}
+
+.resetbutton {
+    color: white;
+    background-color: #1981c4;
+    width: 7em;
+    height: 35px;
+    border-top-color: #1981c4;
+    border-bottom-color: #1981c4;
+    border-left-color: #1981c4;
+    border-right-color: #1981c4;
+    border-radius: 4px;
+
+}
+
+
+
+
+/* =====Media Querry for responsive====== */
+
+@media only screen and (max-width : 480px){
+    .main{
+        width: 25em;
+    }
+
+    .startbutton{
+        width: 6em;
+    }
+
+    .stopbutton{
+        width: 6em;
+    }
+
+    .resetbutton{
+        width: 6em;
+    }
+
+/* =====Heading for Times Styling for Responsive======= */
+    .hour{
+        margin-left: 58px;
+    }
+
+    .min{
+        margin-left: 165px;
+    }
+
+    .sec{
+        margin-left: 268px;
+    }
+
+}
+
+
+@media only screen and (max-width : 400px){
+
+    /* =====Heading====== */
+    .heading1{
+        font-size: 40px;
+    }
+    .main{
+        width: 23em;
+    }
+
+    /* ====Main Timing Styling for responsive==== */
+    .timing{
+        font-size: 45px;
+    }
+    
+    /* ======Buttons Styling for responsive===== */
+    .startbutton{
+        width: 6em;
+    }
+
+    .stopbutton{
+        width: 6em;
+    }
+
+    .resetbutton{
+        width: 6em;
+    }
+
+/* =====Heading for Times Styling for Responsive======= */
+    .hour{
+        margin-left: 56px;
+    }
+
+    .min{
+        margin-left: 160px;
+    }
+
+    .sec{
+        margin-left: 255px;
+    }
+
+}
+
+
+
+@media only screen and (max-width : 370px){
+
+    /* =====Heading====== */
+    .heading1{
+        font-size: 40px;
+    }
+    .main{
+        width: 20em;
+    }
+
+    /* ====Main Timing Styling for responsive==== */
+    .timing{
+        font-size: 35px;
+
+    }
+    
+    /* ======Buttons Styling for responsive===== */
+    .startbutton{
+        width: 5em;
+    }
+
+    .stopbutton{
+        width: 5em;
+    }
+
+    .resetbutton{
+        width: 5em;
+    }
+
+/* =====Heading for Times Styling for Responsive======= */
+    .hour{
+        margin-left: 48px;
+    }
+
+    .min{
+        margin-left: 130px;
+    }
+
+    .sec{
+        margin-left: 215px;
+    }
+
+}
+
+
+
+@media only screen and (max-width : 323px){
+
+    /* =====Heading====== */
+    .heading1{
+        font-size: 37px;
+    }
+    .main{
+        width: 18em;
+    }
+
+    /* ====Main Timing Styling for responsive==== */
+    .timing{
+        font-size: 31px;
+    }
+    
+    /* ======Buttons Styling for responsive===== */
+    .startbutton{
+        width: 70px;
+    }
+
+    .stopbutton{
+        width: 70px;
+    }
+
+    .resetbutton{
+        width: 70px;
+    }
+
+/* =====Heading for Times Styling for Responsive======= */
+    .hour{
+        margin-left: 30px;
+    }
+
+    .min{
+        margin-left: 112px;
+    }
+
+    .sec{
+        margin-left: 197px;
+    }
+
+}
